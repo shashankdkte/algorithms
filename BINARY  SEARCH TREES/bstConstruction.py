@@ -9,7 +9,7 @@ class BST:
 
 #WORST
 #TIME COMPLEXITY O(n)
-#SPACE COMPLEXITY O(1)
+#SPACE COMPLEXITY O(n)
     def insert(self,value):
         currentNode = self
         while True:
@@ -44,7 +44,7 @@ class BST:
 
 #WORST
 #TIME COMPLEXITY O(n)
-#SPACE COMPLEXITY O(1)
+#SPACE COMPLEXITY O(n)
     def remove(self,value,parentNode=None):
         currentNode = self
         while currentNode is not None:
