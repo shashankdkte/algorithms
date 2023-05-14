@@ -1,3 +1,5 @@
+#TIME COMPLEXITY O(n)
+# SPACE COMPLEXITY  O(n)
 def  balancedBrackets(string):
     openingBrackets = "([{"
     closingBrackets = ")]}"
