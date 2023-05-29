@@ -1,3 +1,5 @@
+# TIME COMPLEXITY O(nlogn + mlogm) 
+# SPACE COMPLEXITY O(1)
 def smallestDifference(arrayOne,arrayTwo):
     arrayOne.sort()
     arrayTwo.sort()
